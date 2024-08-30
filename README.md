@@ -17,3 +17,9 @@ Verification code
 Change password for user **elastic**
 
 ```docker exec -it elasticsearch /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic```
+
+Templates
+
+- Перейдите в раздел Stack Management (Управление стеком) в левом меню.
+- Выберите Index Management (Управление индексами) и затем Index Templates (Шаблоны индексов).
+- Создайте новый шаблон для индекса ros2-errors-*, который будет соответствовать структуре данных, отправляемых из ROS 2.
